@@ -1,1 +1,18 @@
 /* your code */
+table{
+border-collapse:collapse;
+width:100%
+}
+
+thead{
+background-color:yellowgreen;
+}
+tr:nth-child(even)
+{
+background-color :pink;
+}
+th,td{
+/* border:1 px solid #dddddd; */
+padding:8px;
+text-align:left;
+}
